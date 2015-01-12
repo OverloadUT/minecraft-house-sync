@@ -1,3 +1,6 @@
+# Project Specific
+node/config.js
+
 # Logs
 logs
 *.log
