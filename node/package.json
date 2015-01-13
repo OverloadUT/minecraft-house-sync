@@ -1,6 +1,6 @@
 {
   "name": "minecraft-house-sync",
-  "version": "1.0",
+  "version": "0.9.0",
   "description": "Reads time of day from a minecraft computercraft file and sends it to an ISY home automation system",
   "author": "Greg Laabs <OverloadUT@gmail.com>",
   "scripts": {
@@ -9,34 +9,21 @@
   "main": "mchouse.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/browsenpm.org"
+    "url": "https://github.com/OverloadUT/minecraft-house-sync.git"
   },
   "bugs": {
-    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+    "url": "https://github.com/OverloadUT/minecraft-house-sync/issues"
   },
   "keywords": [
-    "nodejitsu",
-    "example",
-    "browsenpm"
+    "minecraft",
+    "isy",
+    "internetofthings"
   ],
   "dependencies": {
-    "primus": "*",
-    "async": "~0.8.0",
-    "express": "4.2.x",
-    "winston": "git://github.com/flatiron/winston#master",
-    "bigpipe": "bigpipe/pagelet",
-    "plates": "https://github.com/flatiron/plates/tarball/master"
+    "q": "~1.1.0"
   },
-  "devDependencies": {
-    "vows": "^0.7.0",
-    "assume": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
-    "pre-commit": "*"
-  },
-  "preferGlobal": true,
+  "preferGlobal": false,
   "private": true,
-  "publishConfig": {
-    "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
-  },
   
   "license": "MIT"
 }
